@@ -1,3 +1,46 @@
-index.html
-style.css
-script.js
+index.html: 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Management</title>
+</head>
+<body>
+    <h1>Portfolio Management</h1>
+    <div id="input-section">
+        <input type="text" id="stock-name" placeholder="Enter stock name">
+        <button onclick="trackStock()">Track Stock</button>
+    </div>
+    <div id="output-section">
+        <canvas id="stock-chart"></canvas>
+        <p id="profit-loss"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+style.css: body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#input-section {
+    margin-bottom: 20px;
+}
+
+#output-section {
+    margin-top: 20px;
+}
+script.js: body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#input-section {
+    margin-bottom: 20px;
+}
+
+#output-section {
+    margin-top: 20px;
+}
